@@ -7,4 +7,6 @@ Rails.application.routes.draw do
   get 'residential/bar_data', :defaults => { :format => 'json' }
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  get 'residential/scatter_chart'
+  get 'residential/scatter_data', :defaults => { :format => 'json' }
 end
